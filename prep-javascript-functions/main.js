@@ -1,53 +1,53 @@
 function addTwoNumbers(num1, num2) {
-  return console.log(num1 + num2);
+  return num1 + num2;
 }
 
-addTwoNumbers(2, 2);
+console.log(addTwoNumbers(2, 2));
 
 function convertHoursToMinutes(hours) {
-  return console.log(hours * 60);
+  return hours * 60;
 }
 
-convertHoursToMinutes(2);
+console.log(convertHoursToMinutes(2));
 
 function getGreeting(name) {
-  return console.log(`Hello ${name} !`);
+  return `Hello ${name} !`;
 }
 
-getGreeting('World');
+console.log(getGreeting('World'));
 
 function addAndMultiplyBy5(num1, num2) {
-  return console.log((num1 + num2) * 5);
+  return (num1 + num2) * 5;
 }
 
-addAndMultiplyBy5(10, 5);
+console.log(addAndMultiplyBy5(10, 5));
 
 function multiplyAndDivideBy5(num1, num2) {
-  return console.log((num1 * num2) / 5);
+  return (num1 * num2) / 5;
 }
 
-multiplyAndDivideBy5(35, 10);
+console.log(multiplyAndDivideBy5(35, 10));
 
 function subtractTwoNumbers(num1, num2) {
-  return console.log(num1 - num2);
+  return num1 - num2;
 }
 
-subtractTwoNumbers(22, 7);
+console.log(subtractTwoNumbers(22, 7));
 
 function getCircleCircumference(radius) {
-  return console.log(2 * Math.PI * radius);
+  return 2 * Math.PI * radius;
 }
 
-getCircleCircumference(5);
+console.log(getCircleCircumference(5));
 
 function getFullName(firstName, lastName) {
-  return console.log(`${firstName} ${lastName}`);
+  return `${firstName} ${lastName}`;
 }
 
-getFullName('Juan', 'Ramirez');
+console.log(getFullName('Juan', 'Ramirez'));
 
 function cube(number) {
-  return console.log(number * number * number);
+  return number * number * number;
 }
 
-cube(5);
+console.log(cube(5));
