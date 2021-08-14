@@ -18,7 +18,6 @@
       I really like coding.
     </p>
     <p class="second-paragraph">
-      I also really like to watch television and eating pancakes.
     </p>
     <p class="third-paragraph">
       I hope one day to meet people that also like coding, television, and pancakes.
@@ -26,8 +25,10 @@
   </div>
   <script>
     var $secondParagraph = document.querySelector('.second-paragraph');
+    $secondParagraph.textContent = 'I also really like to watch television and eating pancakes.';
     console.log($secondParagraph);
     var $thirdParagraph = document.querySelector('.third-paragraph');
+    $thirdParagraph.textContent = 'I hope one day to meet people that also like coding, television, and pancakes.';
     console.log($thirdParagraph);
   </script>
 </body>
